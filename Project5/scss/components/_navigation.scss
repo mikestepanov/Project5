@@ -1,0 +1,18 @@
+.navigation, .nav, {
+  display: flex;
+}
+
+.nav {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1em;
+}
+
+li.nav__item a {
+  display: block;
+}
+
+li.nav__item {
+  padding: em(16px);
+  border-radius: em(3px);
+}
